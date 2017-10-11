@@ -28,7 +28,6 @@ class MoviesController < ApplicationController
     @movie = Movie.find params[:id]
   end
   
-  
   def update
     # @movie = Movie.find params[:id]
     # permitted = params[:movie].permit(:title,:rating,:release_date)
