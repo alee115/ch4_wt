@@ -5,7 +5,6 @@ class CreateMovies < ActiveRecord::Migration
       t.string 'rating'
       t.text 'description'
       t.datetime 'release_date'
-      
       t.timestamps
     end
   end
